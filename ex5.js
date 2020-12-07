@@ -8,7 +8,7 @@
  * Reestricción: SOLO puedes cambiar el valor de la variable 'veces' para conseguirlo
  */
 
- let veces = 5;
+ let veces = 50;
 
  for (let i=5; i<veces; i++) {
      console.log("No me voy a ejecutar...")

@@ -12,5 +12,26 @@
 let mes = 4;
 
 // Escribir a partir de aquí
+let trimestre;
+switch(mes){
+    case 1:
+    case 2:
+    case 3:
+    case 4:
+        trimestre = "primer";
+        break;
+    case 5:
+    case 6:
+    case 7:
+    case 8:
+        trimestre = "segundo";
+        break;
+    case 9:
+    case 10:
+    case 11:
+    case 12:
+        trimestre = "tercer";
+        break;
+}
 
-
+console.log(`Estamos en el ${trimestre} trimestre`)

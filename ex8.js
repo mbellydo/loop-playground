@@ -10,7 +10,7 @@
 let veces = 5
 let i = 0
 
-while (i<=veces) {
+while (i<veces) {
     console.log("Ejecuto!")
     i++
 }
